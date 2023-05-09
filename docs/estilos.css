@@ -1,27 +1,29 @@
 main {
     border: 2px solid black;
-    height: 640px;
+    height: 660px;
     width: 1100px;
     margin: auto;
 }
 
 header{
-    border: 2px solid rgb(33, 13, 211);
-    height: 100px;
+    border: 2px solid black;
+    height: 110px;
 }
 
 nav{
-    border: 2px solid red;
+    border: 2px solid black;
     height: 70px;
+    margin: 3px 0px 3px 0px;
 }
 
 section{
-    border: 2px solid rgb(33, 13, 211);
+    border: 2px solid black;
     height: 430px;
+    padding: 3px;
 }
 
 footer{
-    border: 2px solid aqua;
+    border: 2px solid black;
     height: 25px;
 }
 
@@ -51,4 +53,12 @@ article{
     height: 139px;
     width: 680px;
     float: right;
+}
+
+nav ul li{
+    border: 2px solid black;
+    width: 100px;
+    display: inline-block
+    ;
+    margin-right: 20px;
 }
