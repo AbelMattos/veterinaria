@@ -6,7 +6,7 @@ main {
 }
 
 header{
-    border: 2px solid blue;
+    border: 2px solid rgb(33, 13, 211);
     height: 100px;
 }
 
@@ -16,11 +16,39 @@ nav{
 }
 
 section{
-    border: 2px solid rgb(8, 5, 185);
+    border: 2px solid rgb(33, 13, 211);
     height: 430px;
 }
 
 footer{
     border: 2px solid aqua;
     height: 25px;
+}
+
+aside{
+    border: 2px solid black;
+    height: 425px;
+    width: 399px;
+    float: left;
+}
+
+article{
+    border: 2px solid black;
+    height: 139px;
+    width: 680px;
+    float: right;
+}
+
+article{
+    border: 2px solid black;
+    height: 139px;
+    width: 680px;
+    float: right;
+}
+
+article{
+    border: 2px solid black;
+    height: 139px;
+    width: 680px;
+    float: right;
 }
