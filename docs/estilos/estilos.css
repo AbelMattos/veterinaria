@@ -40,6 +40,7 @@ article{
     height: 139px;
     width: 680px;
     float: right;
+    font-family: 'Roboto', sans-serif;
 }
 
 article{
@@ -47,6 +48,7 @@ article{
     height: 139px;
     width: 680px;
     float: right;
+    font-family: 'Roboto', sans-serif;
 }
 
 article{
@@ -54,19 +56,26 @@ article{
     height: 139px;
     width: 680px;
     float: right;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav ul li{
     border: 2px solid black;
     width: 100px;
-    display: inline-block
-    ;
+    display: inline-block;
     margin-right: 20px;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
 }
 
 header img{
     width: 100px;
     height: 100px;
     margin: 5px;
-}   
+    text-align: center;
+}
